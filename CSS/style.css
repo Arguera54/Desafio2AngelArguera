@@ -1,27 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&display=swap');
+
+
+
+
 body {
 
     background-color: #B5F2FF ;
 }
 
-   
-nav {
+nav{
 
     background-color: #B8F2EC;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-family:"Oswald", sans-serif;
+}
+
+
+
+nav img {
+    
+    width: 150PX;
+    border-radius: 25px;
+    
+}
+
+   
+
+ nav a {
+
+    text-decoration: none;
+    width:19px ;
+
 
 } 
  
-nav img {
-
-    width: 150PX;
-}
-
 
 .card{
 
     margin: 20px;
-    width: 300px;
+    width: 800px;
     border-radius: 20PX;
     overflow: hidden;
     box-shadow: 0px 5px 10px #0f0c0c;
     font-family: "Playfair Display", serif;
+}  
+
+
+h1 {
+
+    text-align: center;
+}
+
+.card:hover{
+
+    background-color: dimgrey;
+    transform: scale(1.05);
 }
